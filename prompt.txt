@@ -1,0 +1,17 @@
+Kamu sesi SEGAR untuk submit SATU entry ke bounty make.fun gratis. Baca dulu ~/workspace/custom-skills/make_fun_build_resilience/SKILL.md dan ikuti resepnya.
+
+BOUNTY: "The Funniest Excuse for Skipping a Meeting" — slug u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163 — https://make.fun/bounty/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163
+BRIEF: satu baris MAKS 200 karakter — alasan paling lucu untuk kabur dari meeting/Zoom yang tidak penting. Hadiah $10 dibagi 10 besar (1 $3,10 / 2 $2,16 / 3 $1,51 dst). Tutup 26 Nov 23:00 WIB. Sudah 31 submission.
+TUGAS: buat 1 entry (satu baris, ≤200 karakter), verifikasi 0 duplikat via GET https://make.fun/api/competitions/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163 (cek submissions[].title), buat repo GitHub dian566/excuse-skipping-meeting, isi About repo DULUAN (homepage URL bounty + topic makefun — cegah 422 repo_about), tulis main.py + README, bundle + check lokal target 14/0, lalu SUBMIT.
+
+ATURAN KERAS (pelajaran run sebelumnya):
+- Semua perintah makefun CLI diawali MAKEFUN_CREDENTIALS=~/.makefun/credentials.dian566 (akun dian566). Keypair signing: ~/workspace/makefun/btc-race-24h/dian566-keypair.json (wallet 52bYd1…). JANGAN PERNAH pakai burner-dian566.json — seed-nya terexpos di repo publik.
+- Badge pertama di README: bare https://make.fun/badge/<slug>.svg. Badge rank/reward WAJIB pakai owner/repo: .../badge/<slug>/dian566/excuse-skipping-meeting/rank.svg dan .../reward.svg.
+- main.py ditulis ≥2 pesan dengan edit konten NYATA (bukan byte-identik). JANGAN commit folder kit ke repo.
+- Bundle HANYA sesi ini sendiri (--no-family --no-discover, atau --session <id sesi ini>). Sesi ini dimulai SETELAH bounty dibuka, jadi thinking_in_window aman.
+- Submit minimal: --competition/--repo-url/--commit/--bundle/--keypair saja (flag bundle-time lain ditolak).
+- thinking_priced butuh ≥1 usage row: ambil usage row sesi ini dari muse.db bila perlu.
+- Kalau kena execution-risk check / penolakan runtime saat memproses repo: BERHENTI, jangan akali lewat jalur/agen lain, laporkan persis apa yang terjadi.
+- Kalau submit ditolak 422 repo_about: jangan retry membabi buta; laporkan.
+
+LAPORKAN kembali sebagai hasil akhir: entry final, submission id, claim code, hasil check lokal, repo + commit, status CLI terverifikasi. Sekarang jam ~15:29 WIB 26 Nov 2026 — kerjakan cepat, tutup 23:00 WIB.
